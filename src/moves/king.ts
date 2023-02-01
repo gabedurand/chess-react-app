@@ -13,7 +13,7 @@ const kingMoves = (x: number, y: string, color: string) => {
   ];
 };
 
-const isKingInCheck = (x: number, y: string, color: string, board: Board) => {
+const isKingInCheck = (x: number, y: string, color: string, board: any) => {
   const kingMoves = [
     `${y}${color === "b" ? x - 1 : x + 1}`,
     `${prevLetter(y)}${x + 1}`,
@@ -34,7 +34,7 @@ const isKingInCheck = (x: number, y: string, color: string, board: Board) => {
   return false;
 };
 
-const canCastle = (color: string, board: Board, castleRights: CastleRights) => {
+const canCastle = (color: string, board: any, castleRights: any) => {
   if (color === "b") {
     return castleRights.bk || castleRights.bq;
   } else {
