@@ -31,6 +31,7 @@ Just playing around with how to build a chess game using React.
 - [x] FEN integration (rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR)
 - [x] FEN Conversion utility (future?)
 
+
 #### PHASE III
 
 - [x] Pawn capturing (diagonal)
