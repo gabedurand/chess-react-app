@@ -89,6 +89,7 @@ const Tile = ({
   piece: string;
   color: "b" | "w";
 }) => {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [showPopUp, setShowPopUp] = useState(false);
 
   const handleClick = () => {

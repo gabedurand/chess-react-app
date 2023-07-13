@@ -1,10 +1,8 @@
-import "./Chessboard.css";
-import Tilt from "../Tile/Tile";
-import { useState, useEffect } from "react";
-
+import { useState } from "react";
 import { fen } from "../../moves/utils";
-
 import { useBoardStore } from "../../store/board";
+import Tilt from "../Tile/Tile";
+import "./Chessboard.css";
 
 const horizontalSquares = ["a", "b", "c", "d", "e", "f", "g", "h"];
 const verticalSquares = [1, 2, 3, 4, 5, 6, 7, 8];

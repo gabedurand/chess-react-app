@@ -29,11 +29,12 @@ Just playing around with how to build a chess game using React.
 
 - [x] Tracking capturing a chess piece
 - [x] FEN integration (rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR)
-- [ ] FEN Conversion utility
+- [x] FEN Conversion utility (future?)
+
 
 #### PHASE III
 
-- [ ] Pawn capturing (diagonal)
+- [x] Pawn capturing (diagonal)
 - [ ] Check & CheckMate
 - [ ] Pawn promotion
 
