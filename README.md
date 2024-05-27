@@ -3,9 +3,11 @@
 Just playing around with how to build a chess game using React.
 
 <div align="center">
-  <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/samsung/320/black-chess-knight_265e.png" />
+  <img src="https://t3.ftcdn.net/jpg/05/43/33/10/360_F_543331039_gOmj0e2tGBrB00Z5UkQzipzZKtTPafdQ.jpg" />
   <br/><h6>REACT*CHESS</h6>
 </div>
+
+https://chess-react-app-rust.vercel.app/
 
 ## ROADMAP
 
